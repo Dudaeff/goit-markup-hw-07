@@ -1,0 +1,9 @@
+.directions__header,
+.team__header,
+.customers__header {
+    margin-bottom: 50px;
+
+    @include font(700, 36px, 42px);
+    text-align: center;
+    color: var(--headers-and-names-color);
+}
