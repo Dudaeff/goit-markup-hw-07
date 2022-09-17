@@ -6,13 +6,14 @@
 @import './base/container';
 @import './base/section';
 
+@import './components/header';
 @import './components/logo';
 @import './components/menu';
 @import './components/current';
 @import './components/subscription-form';
+@import './components/button-submit';
 @import './components/overlay';
 @import './components/filter-buttons';
+@import './components/footer';
 
-@import './layout/header';
 @import './layout/portfolio-projects';
-@import './layout/footer';

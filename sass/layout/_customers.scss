@@ -1,3 +1,7 @@
+.customers__header {
+    @extend %sections-header;
+}
+
 .customers__list {
     display: flex;
     column-gap: 30px;

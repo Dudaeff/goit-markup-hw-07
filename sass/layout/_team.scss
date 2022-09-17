@@ -2,6 +2,10 @@
     background-color: var(--secondary-page-color);
 }
 
+.team__header {
+    @extend %sections-header;
+}
+
 .team__list {
     display: flex;
     column-gap: 30px;

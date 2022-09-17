@@ -55,8 +55,8 @@
 
     .form__input:hover+ &,
     .form__input:focus+ & {
-            fill: var(--accent-color);
-        }
+        fill: var(--accent-color);
+    }
 }
 
 .form__comment {
@@ -79,8 +79,8 @@
 
     &:focus,
     &:hover {
-            border: 1px solid var(--accent-color);
-        }
+        border: 1px solid var(--accent-color);
+    }
 }
 
 .form__comment-area::placeholder {
@@ -131,7 +131,7 @@
     fill: var(--primary-page-color);
 
     .form__checkbox:checked+.form__own-checkbox & {
-         display: block;
+      display: block;
     }
 }
 
@@ -149,23 +149,4 @@
 
 .form__btn {
     padding: 10px 52px;
-
-    font-family: inherit;
-    @include font(700, 16px, 30px);
-    letter-spacing: 0.06em;
-    color: var(--primary-page-color);
-
-    background-color: var(--accent-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-
-    transition: background-color var(--transition-time-end-timing),
-    box-shadow var(--transition-time-end-timing);
-
-    &:active,
-    &:hover,
-    &:focus {
-        background-color: var(--accent-active-color);
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    }
 }

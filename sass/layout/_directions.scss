@@ -2,6 +2,10 @@
     padding-top: 0;
 }
 
+.directions__header{
+   @extend %sections-header;
+}
+
 .directions__list {
     display: flex;
     column-gap: 30px;
