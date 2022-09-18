@@ -171,8 +171,8 @@ button {
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1;
+  font-size: 14px;
+  line-height: 1.1428571429;
   letter-spacing: 0.02em;
   color: var(--headers-and-names-color);
   transition: color var(--transition-time-end-timing);
